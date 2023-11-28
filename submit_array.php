@@ -16,6 +16,8 @@
 
 
 <?php
+// in that example we can only input the country name we use in the associative array
+
 $capitals = array(
             "USA" => "Washinton DC",
             "Bangladesh" => "Dhaka",
