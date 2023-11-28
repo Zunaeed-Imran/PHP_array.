@@ -1,5 +1,6 @@
 <?php
 // associative arrays
+
   $capitals = array(
     "USA" => "Washington D.C",
     "Bangladesh" => "Dhaka",
@@ -7,8 +8,8 @@
     "Japan" => "Kyoto"
   );
 
-  $capitals["USA"] = "Las Vagas";
-  $capitals["Chaina"] = "Beijing";
+  $capitals["USA"] = "Las Vagas";   // we overwrite "USA"
+  $capitals["Chaina"] = "Beijing";  // we add a value in array
 
   foreach($capitals as $key => $value)
   echo "{$key} = {$value} </br>";
